@@ -7,14 +7,10 @@ The following is a set of guidelines for contributing to my course, which are ho
 
 [Code of Conduct](#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+<!--[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)-->
 
-[What should I know before I get started?](#what-should-i-know-before-i-get-started)
-  * [Atom and Packages](#atom-and-packages)
-  * [Atom Design Decisions](#design-decisions)
-
-[How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
+[Project Conventions](#project-conventions)
+  * [File structure](#file-structure)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
   * [Pull Requests](#pull-requests)
@@ -31,11 +27,15 @@ The following is a set of guidelines for contributing to my course, which are ho
 
 ## Code of Conduct
 
-To be 
+To be ...
 
-### Project Conventions
-There are a few conventions that have developed over time. As of 2017 projects consists up to four parts: report, dataset, script and presentation.
-Content of the parts located below. Suggested file structure provided in special section - file structure.
+## Project Conventions
+There are a few conventions that have developed over time.
+
+As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`.
+Content of this parts will be described below.
+
+Suggested file structure provided in special section - file structure.
 
 * **Report** file are typically describe experimental design and details of realization of the research project.
 	* Basically it is text file, but you can include any support materials if it is needed.
@@ -47,73 +47,55 @@ Content of the parts located below. Suggested file structure provided in special
 	* Units for every variable is clear
 	* Often numerical data should be machine readable
 * **Script** file contains analysis and results of checking you assumptions.
-	* Script can be published in two types: original code or compiled one.  To see the output of original code we need a special program. Compiled version is human readable and published in exchangeable formats like HTML, Markdown or others.
-	> Note. Jypyther Notebook contains both code and output, so it might be upload as is.
-	* Please, always include compiled version of your script. Compiled or human readable means any output of your script (even in txt). Because nobody have have the same libraries as yours on they machines.
+	* Script can be published in two types: *original code* and *compiled one*. Compiled version is human readable and published in exchangeable formats like HTML, Markdown or others.
+
+	  > **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
+	
+	* Please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody have have the same libraries as yours on they machines.
 	* You can include both versions (included the original one), if prefer.
+
 * **Presentation** is essential results that you get.
 	* Printable version of you presentation is the best option to publish.
 
-Design Decisions
-You should make a significant decision what and how you will publish and maintain the project files and what we can or cannot publish, we will document it in this file atom/design-decisions repository. If you have a question around how we do things, check to see if it is documented here. If it is not documented there, please ask your question.
+### File structure
 
-File structure
-File structure is important. The two main variants are available:
-1. Using same common name for all parts of a project. It could be name of project in short form.
-In this case filenames will looks like: for report project_x.docx, presentation - project_x.pdf, project_x.csv for dataset.
-> Note Please don't use this pattern if name of root folder already contains project name. In this case use unique filenames described below.
+File structure is important.
+
+We will document it in this file. If you have a question around how to do things, check to see if it is documented here. If it is not documented there, please ask your question.
+
+You should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
+
+First, please be noted that your project root folder will be locatet under [github.com/rhangelxs/hmi_class/projects/year/](github.com/rhangelxs/hmi_class/projects/)
+
+#### Project root folder name
+
+Please name your root folder using comma separated surnames of the author's. So it will looks `Petrov, Sidirov`.
+
+> **Note**. Please don't use short name of project. It can be usend in filenames (see Filenames option 2, described below).
+
+#### File names
+
+The two main variants are available:
+
+1. Using same common name for all parts of project.
+   
+   It could be description of project in short form. 
+   Please don't specify year  (like `42design`).
+   
+   In this case filenames will looks like:
+   
+   * For report – `42design.docx`.
+   * Presentation – `42design.pdf`.
+   * `42design.csv` for dataset.
+
 2. Using unique file names for specific part of your project. In this case special requirement applied.
-Report should be named  project_description . Dataset: dataset or data.  Presentation should named literally presentation. But all formats of script (original one and output or compiled one) should have the same name like  script.Rmd, script.html, etc.
-Of course, all files should have a valid extension according to the filetypes.
-
-
-Reporting Bugs
-This section guides you through submitting a bug report for Atom. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
-
-Before creating bug reports, please check this list as you might find out that you don't need to create one. When you are creating a bug report, please include as many details as possible. Fill out the required template, the information it asks for helps us resolve issues faster.
-
-> Note:* If you find a Closed issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
-
-Before Submitting A Bug Report
-
-* *Check the debugging guide.* You might be able to find the cause of the problem and fix things yourself. Most importantly, check if you can reproduce the problem in the latest version of Atom, if the problem happens when you run Atom in safe mode, and if you can get the desired behavior by changing Atom's or packages' config settings.
-* *Check the FAQs on the forum* for a list of common questions and problems.
-* *Determine which repository the problem should be reported in*.
-* *Perform a cursory search* to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one.
-
-How Do I Submit A (Good) Bug Report?
-Bugs are tracked as GitHub issues. After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in the template.
-
-Explain the problem and include additional details to help maintainers reproduce the problem:
-
-* Use a clear and descriptive title for the issue to identify the problem.
-* Describe the exact steps which reproduce the problem in as many details as possible. For example, start by explaining how you started Atom, e.g. which command exactly you used in the terminal, or how you started Atom otherwise. When listing steps, don't just say what you did, but explain how you did it. For example, if you moved the cursor to the end of a line, explain if you used the mouse, or a keyboard shortcut or an Atom command, and if so which one?
-* Provide specific examples to demonstrate the steps. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use Markdown code blocks.
-* Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior.
-* Explain which behavior you expected to see instead and why.
-* Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, *record the GIF with the Keybinding Resolver shown*. You can use this tool to record GIFs on macOS and Windows, and this tool or this tool on Linux.
-* If you're reporting that Atom crashed, include a crash report with a stack trace from the operating system. On macOS, the crash report will be available in Console.app under "Diagnostic and usage information" > "User diagnostic reports". Include the crash report in the issue in a code block, a file attachment, or put it in a gist and provide link to that gist.
-* If the problem is related to performance or memory, include a CPU profile capture with your report.
-* If Chrome's developer tools pane is shown without you triggering it, that normally means that you have a syntax error in one of your themes or in your styles.less. Try running in Safe Mode and using a different theme or comment out the contents of your styles.less to see if that fixes the problem.
-* If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information using the guidelines below.
-
-Provide more context by answering these questions:
-
-* *Can you reproduce the problem in safe mode?*
-* Did the problem start happening recently (e.g. after updating to a new version of Atom) or was this always a problem?
-* If the problem started happening recently, can you reproduce the problem in an older version of Atom? What's the most recent version in which the problem doesn't happen? You can download older versions of Atom from the releases page.
-* Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
-* If the problem is related to working with files (e.g. opening and editing files), does the problem happen for all files and projects or only some? Does the problem happen only when working with local or remote files (e.g. on network drives), with files of a specific type (e.g. only JavaScript or Python files), with large files or files with very long lines, or with files in a specific encoding? Is there anything else special about the files you are using?
-
-Include details about your configuration and environment:
-
-* Which version of Atom are you using? You can get the exact version by running atom -v in your terminal, or by starting Atom and running the Application: About command from the Command Palette.
-* What's the name and version of the OS you're using?
-* Are you running Atom in a virtual machine? If so, which VM software are you using and which operating systems and versions are used for the host and the guest?
-* *Which packages do you have installed?* You can get that list by running apm list --installed.
-* *Are you using local configuration files* config.cson, keymap.cson, snippets.cson, styles.less and init.coffee to customize Atom? If so, provide the contents of those files, preferably in a code block or with a link to a gist.
-* Are you using Atom with multiple monitors? If so, can you reproduce the problem when you use a single monitor?
-* Which keyboard layout are you using? Are you using a US layout or some other layout?
+  
+  * Report should be started with short form project name like `42design_description`.
+  * Dataset: `dataset` or `data`.
+  * Presentation should named literally `presentation`.
+  * All script formats (original one and output or compiled one) should have the same name like  `script.Rmd`, `script.html`, etc.
+  
+  Of course, all files should have a valid extension according to the filetypes.
 
 Suggesting Enhancements
 This section guides you through submitting an enhancement suggestion for Atom, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
