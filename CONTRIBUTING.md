@@ -89,12 +89,12 @@ The two main variants are available:
 
 2. Using unique file names for specific part of your project. In this case special requirement applied.
   
-  * Report should be started with short form project name like `42design_description`.
-  * Dataset: `dataset` or `data`.
-  * Presentation should named literally `presentation`.
-  * All script formats (original one and output or compiled one) should have the same name like  `script.Rmd`, `script.html`, etc.
-  
-  Of course, all files should have a valid extension according to the filetypes.
+   * Report should be started with short form project name like `42design_description`.
+   * Dataset: `dataset` or `data`.
+   * Presentation should named literally `presentation`.
+   * All script formats (original one and output or compiled one) should have the same name like  `script.Rmd`, `script.html`, etc.
+   
+   Of course, all files should have a valid extension according to the filetypes.
 
 Suggesting Enhancements
 This section guides you through submitting an enhancement suggestion for Atom, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
