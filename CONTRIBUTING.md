@@ -59,7 +59,6 @@ Suggested file structure provided in special section - file structure.
 ### File structure
 
 File structure is important.
-
 We will document it in this file. If you have a question around how to do things, check to see if it is documented here. If it is not documented there, please ask your question.
 
 You should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
@@ -78,8 +77,9 @@ The two main variants are available:
 
 1. Using same common name for all parts of project.
    
-   It could be description of project in short form. 
-   Please don't specify year  (like `42design`).
+   It could be description of project in short form (like `42design`).
+   
+   > **Note.** Please, don't specify year an author surnames, because it already in location.
    
    In this case filenames will looks like:
    
