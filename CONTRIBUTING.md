@@ -9,7 +9,9 @@ The following is a set of guidelines for contributing to my course, which are ho
 
 <!--[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)-->
 
-[Project Conventions](#project-conventions)
+[Project](#project)
+  * [Code of Conduct](#code-of-conduct)
+  * [Project Conventions](#project-conventions)
   * [File structure](#file-structure)
     * [Root folder name](#root-folder-name)
     * [File names](#file-names)
@@ -24,12 +26,22 @@ The following is a set of guidelines for contributing to my course, which are ho
 [Additional Notes](#additional-notes)
   * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 
-## Code of Conduct
 
-To be ...
+## Project
 
-## Project Conventions
+### Code of Conduct
+
+Good rule here is **not to harm**.
+
+* Respect copyright, if parts of your project using something - cite it.
+* If you made any conclusions check it twice.
+* ...
+
+### Project Conventions
+
 There are a few conventions that have developed over time.
+
+First, bear in mind, that you should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
 
 As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`.
 Content of this parts will be described below.
@@ -53,25 +65,24 @@ Suggested file structure provided in special section - file structure.
 	* Please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody have have the same libraries as yours on they machines.
 	* You can include both versions (included the original one), if prefer.
 
-* **Presentation** is essential results that you get.
+* **Presentation** is essential results that you got.
 	* Printable version of you presentation is the best option to publish.
 
-### File structure
+## File structure
 
 File structure is important.
-We will document it in this file. If you have a question around how to do things, check to see if it is documented here. If it is not documented there, please ask your question.
 
-You should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
+We will document it in this file. If you have a question around how to do things, check to see if it is documented here. If it is not documented there, please ask your question.
 
 First, please be noted that your project root folder will be locatet under [github.com/rhangelxs/hmi_class/projects/year/](github.com/rhangelxs/hmi_class/projects/)
 
-#### Root folder name
+### Root folder name
 
 Please name your root folder using comma separated surnames of the author's. So it will looks `Petrov, Sidirov`.
 
 > **Note**. Please don't use short name of project. It can be usend in filenames (see Filenames option 2, described below).
 
-#### File names
+### File names
 
 The two main variants are available:
 
