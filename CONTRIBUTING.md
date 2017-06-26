@@ -11,9 +11,8 @@ The following is a set of guidelines for contributing to my course, which are ho
 
 [Project Conventions](#project-conventions)
   * [File structure](#file-structure)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Your First Code Contribution](#your-first-code-contribution)
-  * [Pull Requests](#pull-requests)
+    * [Root folder name](#root-folder-name)
+    * [File names](#file-names)
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
@@ -67,7 +66,7 @@ You should make a significant decision how you will publish and maintain the pro
 
 First, please be noted that your project root folder will be locatet under [github.com/rhangelxs/hmi_class/projects/year/](github.com/rhangelxs/hmi_class/projects/)
 
-#### Project root folder name
+#### Root folder name
 
 Please name your root folder using comma separated surnames of the author's. So it will looks `Petrov, Sidirov`.
 
