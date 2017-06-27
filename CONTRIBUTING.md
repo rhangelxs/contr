@@ -58,7 +58,7 @@ Suggested file structure provided in special section - [file structure](#file-st
 
 	* But, please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
 
-* :desktop computer: **Presentation** is essential results that you got.
+* :sunrise_over_mountains: **Presentation** is essential results that you got.
 	* Printable version of you presentation is the best option to publish.
 
 ### File structure
