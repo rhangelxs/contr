@@ -33,9 +33,9 @@ There are a few conventions that have developed over time.
 First, bear in mind, that you should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
 
 As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`. Each part should be placed in separate file.
-Role each of this parts will be described below.
+Role of each part will be described below.
 
-Suggested file structure provided in special section - [file structure](#file-structure).
+Suggested file structure provided [file structure](#file-structure) section.
 
 * :blue_book: **Report** is typically describe experimental design and details of realization of the research project. Basically it is text file, but you can include any support materials if it is needed.
 	* Try not to add too much though, stay clear.
