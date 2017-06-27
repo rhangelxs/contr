@@ -55,8 +55,12 @@ Suggested file structure provided in special section - [file structure](#file-st
 		> **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
 
 	* You can choose: include **both versions** (included the original code), or if you prefer, didn't publish your code.
+	  
+	  If you publish your code, please double check that it will run with new file structure!
+	  
+	  > The best way to test it — is moving files from old location and check for any compilation errors.
 
-	* But, please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
+	* Please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
 
 * :sunrise_over_mountains: **Presentation** is essential results that you got in short visual form.
 	* Printable version of you presentation is the best option to publish.
