@@ -16,6 +16,8 @@ The following is a set of guidelines for contributing to my course, which are ho
     * [Root folder name](#root-folder-name)
     * [File names](#file-names)
   * [Uploading your project](#uploading-your-project)
+    * [Pull request](#pull-request)
+    
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
   * [JavaScript Styleguide](#javascript-styleguide)
@@ -113,7 +115,7 @@ This section guides you through submitting an project for publication to reposit
 
 Before making the right folder structore make a fork of repository, after find folder `project/year`, place your files in right places. Path of dataset may looks like `project/2017/Petrov, Sidorov/42design.csv` or `project/2017/Petrov, Sidorov/datset.csv`. After it, starting pull request.
 
-#### Pull Requests
+#### Pull Request
 
 * Fill in the required template
 * Do not include issue numbers in the PR title
