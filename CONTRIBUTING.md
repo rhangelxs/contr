@@ -39,18 +39,18 @@ Content of this parts will be described below.
 
 Suggested file structure provided in special section - [file structure](#file-structure).
 
-* **Report** is typically describe experimental design and details of realization of the research project.
+* :blue_book: **Report** is typically describe experimental design and details of realization of the research project.
 	* Basically it is text file, but you can include any support materials if it is needed.
 	* Try not to add too much though, clear
 	* But add **all** needed description, procedures and materials here.
-* **Dataset** includes all data in original form.
+* :bookmark_tabs: **Dataset** includes all data in original form.
 
   Check that:
 	* You upload data in raw format (not aggregated)
 	* Double check columns header fit to your variables
 	* Units for every variable is clear
 	* Numerical data is machine readable
-* **Script** file contains checking of your assumptions, analysis and result of it.
+* :computer: **Script** file contains checking of your assumptions, analysis and result of it.
 	* Script can be published in two types: *original code* and *compiled one*. Compiled version is human readable and published in exchangeable formats like HTML, Markdown or others.
 	> **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
 
@@ -58,7 +58,7 @@ Suggested file structure provided in special section - [file structure](#file-st
 
 	* But, please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
 
-* **Presentation** is essential results that you got.
+* :desktop computer: **Presentation** is essential results that you got.
 	* Printable version of you presentation is the best option to publish.
 
 ### File structure
