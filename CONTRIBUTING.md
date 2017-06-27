@@ -17,17 +17,6 @@ The following is a set of guidelines for contributing to my course, which are ho
     * [File names](#file-names)
   * [Uploading your project](#uploading-your-project)
     * [Pull request](#pull-request)
-    
-[Styleguides](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
-  * [JavaScript Styleguide](#javascript-styleguide)
-  * [CoffeeScript Styleguide](#coffeescript-styleguide)
-  * [Specs Styleguide](#specs-styleguide)
-  * [Documentation Styleguide](#documentation-styleguide)
-
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
-
 
 ## Project
 
@@ -128,3 +117,7 @@ Before making the right folder structore make a fork of repository, after find f
 | `work-in-progress` | Pull requests which are still being worked on, more changes will follow.                 |
 | `needs-review`     | Pull requests which need code review, and approval from maintainers or Atom core team.   |
 | `under-review`     | Pull requests being reviewed by maintainers or Atom core team.                           |
+
+## Credits
+
+Originated from [Atom contribution guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md).
