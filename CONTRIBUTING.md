@@ -5,8 +5,6 @@ The following is a set of guidelines for contributing to my course, which are ho
 
 #### Table Of Contents
 
-[Code of Conduct](#code-of-conduct)
-
 <!--[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)-->
 
 [Project](#project)
@@ -77,7 +75,7 @@ First, please be noted that your project root folder will be located under [gith
 
 Please name your root folder using comma separated surnames of the author's. So it will looks `Petrov, Sidirov`.
 
-> **Note**. Please don't use short name of project. It can be usend in filenames (see Filenames option 2, described below).
+> **Note**. Please don't use short name of project in folder name. It should be used in filename (see [Filenames section](#file-names), option 2).
 
 #### File names
 
