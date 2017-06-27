@@ -46,24 +46,26 @@ First, bear in mind, that you should make a significant decision how you will pu
 As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`.
 Content of this parts will be described below.
 
-Suggested file structure provided in special section - file structure.
+Suggested file structure provided in special section - [file structure](#file-structure).
 
-* **Report** file are typically describe experimental design and details of realization of the research project.
+* **Report** is typically describe experimental design and details of realization of the research project.
 	* Basically it is text file, but you can include any support materials if it is needed.
-	* Try not to add too much though, but stay clear and add all needed explanations here.
-* **Dataset** that include all original data
-	* Check that you reporting your data in raw format (not in aggregated form)
-	* Check column names
-	* Fit to your variables
+	* Try not to add too much though, clear
+	* But add **all** needed description, procedures and materials here.
+* **Dataset** includes all data in original form.
+  
+  Check that:
+	* You upload data in raw format (not aggregated)
+	* Double check columns header fit to your variables
 	* Units for every variable is clear
-	* Often numerical data should be machine readable
-* **Script** file contains analysis and results of checking you assumptions.
+	* Numerical data is machine readable
+* **Script** file contains checking of your assumptions, analysis and result of it.
 	* Script can be published in two types: *original code* and *compiled one*. Compiled version is human readable and published in exchangeable formats like HTML, Markdown or others.
-
-	  > **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
+	> **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
+		
+	* You can choose: include **both versions** (included the original code), or if you prefer, didn't publish your code.
 	
-	* Please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody have have the same libraries as yours on they machines.
-	* You can include both versions (included the original one), if prefer.
+	* But, please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
 
 * **Presentation** is essential results that you got.
 	* Printable version of you presentation is the best option to publish.
@@ -86,9 +88,7 @@ Please name your root folder using comma separated surnames of the author's. So 
 
 The two main variants are available:
 
-1. Using same common name for all parts of project.
-   
-   It could be description of project in short form (like `42design`).
+1. Using same common name for all parts of project (see description of parts in [Project Conventions](#project-conventions) section). It could be description of project in short form (like `42design`).
    
    > **Note.** Please, don't specify year an author surnames, because it already in location.
    
@@ -100,7 +100,7 @@ The two main variants are available:
 
 2. Using unique file names for specific part of your project. In this case special requirement applied.
   
-   * Report should be started with short form project name like `42design_description`.
+   * Report should be started with short form project with `_description` suffix, it will be `42design_description`.
    * Dataset: `dataset` or `data`.
    * Presentation should named literally `presentation`.
    * All script formats (original one and output or compiled one) should have the same name like  `script.Rmd`, `script.html`, etc.
