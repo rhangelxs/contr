@@ -81,11 +81,11 @@ All files should have a valid extension according to the filetypes.
 
 According to filenames, two main options are available:
 
-1. Using same common name for all parts of project :blue_book:, :bookmark_tabs:, :computer:, :sunrise_over_mountains: (see description of parts in [Project Conventions](#project-conventions) section). It could be description of project in short form (like `42design`).
+1. Using **same common name** for all project files: :blue_book:, :bookmark_tabs:, :computer:, :sunrise_over_mountains: (see description of each parts in [Project Conventions](#project-conventions) section). The filename in this case will be project name or code in short form (like `42design`).
 
-   > **Note.** Please, don't specify year or authors' surnames, because it already in location.
+   > **Note.** Please, don't specify year or authors' surnames in filename, because it already stated in file path.
 
-   In this case all filenames will start with project name in short form. And only by file type reader can detect content of which file belongs to project of project. Files will looks like:
+   In this optint all filenames will start with project name in short form. And only by file type reader can detect content of which file belongs to project. Filenames will looks like:
 
    * For report – `42design.docx`.
    * Presentation – `42design.pdf`.
