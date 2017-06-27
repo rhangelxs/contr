@@ -52,7 +52,7 @@ Suggested file structure provided in special section - [file structure](#file-st
 	* Numerical data is machine readable
 * :computer: **Script** file contains checking of your assumptions, analysis and result of it.
 	* Script can be published in two types: *original code* and *compiled one*. Compiled version is human readable and published in exchangeable formats like HTML, Markdown or others.
-	  > **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
+		> **Note.** Jypyther Notebook contains both code and output, so it might be upload as is.
 
 	* You can choose: include **both versions** (included the original code), or if you prefer, didn't publish your code.
 
