@@ -121,8 +121,8 @@ Before making the right folder structore make a fork of repository, after find f
 |     Label name     |                                       Description                                        |
 | ------------------ | ---------------------------------------------------------------------------------------- |
 | `work-in-progress` | Pull requests which are still being worked on, more changes will follow.                 |
-| `needs-review`     | Pull requests which need code review, and approval from maintainers or Atom core team.   |
-| `under-review`     | Pull requests being reviewed by maintainers or Atom core team.                           |
+| `needs-review`     | Pull requests which need code review, and approval.   |
+| `under-review`     | Pull requests being reviewed.                           |
 
 ## Credits
 
