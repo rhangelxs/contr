@@ -34,16 +34,16 @@ There are a few conventions that have developed over time.
 
 First, bear in mind, that you should make a significant decision how you will publish and maintain the project files, what you should or shouldn't publish.
 
-As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`.
-Content of this parts will be described below.
+As of 2017 projects consists up to four parts, called: `report`, `dataset`, `script` and `presentation`. Each part should be placed in separate file.
+Role each of this parts will be described below.
 
 Suggested file structure provided in special section - [file structure](#file-structure).
 
-* :blue_book: **Report** is typically describe experimental design and details of realization of the research project.
-	* Basically it is text file, but you can include any support materials if it is needed.
-	* Try not to add too much though, clear
-	* But add **all** needed description, procedures and materials here.
-* :bookmark_tabs: **Dataset** includes all data in original form.
+* :blue_book: **Report** is typically describe experimental design and details of realization of the research project. Basically it is text file, but you can include any support materials if it is needed.
+	* Try not to add too much though, stay clear.
+	* At the same time, add **all** needed description, procedures and materials here.
+
+* :bookmark_tabs: **Dataset** includes all original data in tabular form.
 
   Check that:
 	* You upload data in raw format (not aggregated)
@@ -58,7 +58,7 @@ Suggested file structure provided in special section - [file structure](#file-st
 
 	* But, please, always include **compiled version of your script**. Compiled or human readable means any output of your script (even in txt). Because nobody should have the same libraries as yours on they machines.
 
-* :sunrise_over_mountains: **Presentation** is essential results that you got.
+* :sunrise_over_mountains: **Presentation** is essential results that you got in short visual form.
 	* Printable version of you presentation is the best option to publish.
 
 ### File structure
@@ -67,7 +67,7 @@ File structure is important.
 
 We will document it in this file. If you have a question around how to do things, check to see if it is documented here. If it is not documented there, please ask your question.
 
-First, please be noted that your project root folder will be locatet under [github.com/rhangelxs/hmi_class/projects/year/](github.com/rhangelxs/hmi_class/projects/)
+First, please be noted that your project root folder will be located under [github.com/rhangelxs/hmi_class/projects/year/](github.com/rhangelxs/hmi_class/projects/)
 
 #### Root folder name
 
@@ -77,26 +77,28 @@ Please name your root folder using comma separated surnames of the author's. So 
 
 #### File names
 
-The two main variants are available:
+All files should have a valid extension according to the filetypes.
 
-1. Using same common name for all parts of project (see description of parts in [Project Conventions](#project-conventions) section). It could be description of project in short form (like `42design`).
+According to filenames, two main options are available:
+
+1. Using same common name for all parts of project :blue_book:, :bookmark_tabs:, :computer:, :sunrise_over_mountains: (see description of parts in [Project Conventions](#project-conventions) section). It could be description of project in short form (like `42design`).
 
    > **Note.** Please, don't specify year or authors' surnames, because it already in location.
 
-   In this case filenames will looks like:
+   In this case all filenames will start with project name in short form. And only by file type reader can detect content of which file belongs to project of project. Files will looks like:
 
    * For report – `42design.docx`.
    * Presentation – `42design.pdf`.
    * `42design.csv` for dataset.
+   
+   > **Note**. This option not the best one, when most of your files have same file type (pdf, for example). In thin case use unique filenames option (see below).
 
-2. Using unique file names for specific part of your project. In this case special requirement applied.
+2. Using unique file names for specific part of your project. In this case some special requirement applied.
 
-   * Report should be started with short form project with `_description` suffix, it will be `42design_description`.
+   * Report should be literally named `report`.
    * Dataset: `dataset` or `data`.
-   * Presentation should named literally `presentation`.
-   * All script formats (original one and output or compiled one) should have the same name like  `script.Rmd`, `script.html`, etc.
-
-   Of course, all files should have a valid extension according to the filetypes.
+   * The same for presentation.
+   * All variants of script (original one and output or compiled one) should have the same name (`script.Rmd`, `script.html`).
 
 ### Uploading your project
 
